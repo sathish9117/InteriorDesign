@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[500px] gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[450px] gap-10">
           {/* Text section */}
           <div className="flex flex-col text-center justify-center gap-5 md:pr-8 md:text-left pt-20 md:pt-0 lg:pr-14">
             <h1 className=" text-3xl font-bold">
