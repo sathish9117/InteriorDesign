@@ -8,7 +8,7 @@ const Brands = () => {
   return (
     <>
       <div className="container py-14">
-        <div className=" flex flex-wrap border border-black justify-center lg:justify-evenly gap-6">
+        <div className=" flex flex-wrap justify-center lg:justify-evenly gap-6">
           <img src={Brand1} alt="brand" className=" w-[130px]" />
           <img src={Brand2} alt="brand" className=" w-[130px]" />
           <img src={Brand3} alt="brand" className=" w-[130px]" />
