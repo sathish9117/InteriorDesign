@@ -1,5 +1,7 @@
 import React from "react";
 import HeroPng from "../../assets/hero.png";
+import { motion } from "framer-motion";
+import { SlideUp } from "../animation/animate";
 const Hero = () => {
   return (
     <>
@@ -7,9 +9,14 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[450px] gap-10">
           {/* Text section */}
           <div className="flex flex-col text-center justify-center gap-5 md:pr-8 md:text-left pt-20 md:pt-0 lg:pr-14">
-            <h1 className=" text-3xl font-bold">
+            <motion.h1
+              variants={SlideUp(0.5)}
+              initial="initial"
+              animate="animate"
+              className=" text-3xl font-bold"
+            >
               SKETCH LUXURY INTERIOR DESIGN
-            </h1>
+            </motion.h1>
             <p className=" text-sm text-gray-500">
               Bring your dream to life with one-on-one design help & hand picked
               products tailored to your style, space and budget.
