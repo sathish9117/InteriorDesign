@@ -4,6 +4,7 @@ import Brands from "./components/Brands/Brands";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
+import Testimonal from "./components/Testimonal/Testimonal";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Banner />
       <Banner2 />
+      <Testimonal />
     </main>
   );
 }
