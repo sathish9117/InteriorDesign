@@ -15,7 +15,7 @@ const Banner2 = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
               voluptate consequatur aliquid provident, asperiores
             </p>
-            <div className=" flex gap-3 text-center">
+            <div className=" flex gap-3 text-center lg:justify-start md:justify-center sm:justify-center">
               <div className=" max-w-[80px] space-y-2">
                 <p className=" text-3xl font-bold font-serif">15</p>
                 <p className=" text-gray-500 text-sm">Years of Experience</p>
