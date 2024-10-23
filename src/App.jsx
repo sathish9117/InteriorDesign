@@ -1,6 +1,7 @@
 import Banner from "./components/Banner/Banner";
 import Banner2 from "./components/Banner/Banner2";
 import Brands from "./components/Brands/Brands";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import NewsLetter from "./components/NewsLetter/NewsLetter";
@@ -18,6 +19,7 @@ function App() {
       <Banner2 />
       <Testimonal />
       <NewsLetter />
+      <Footer />
     </main>
   );
 }
