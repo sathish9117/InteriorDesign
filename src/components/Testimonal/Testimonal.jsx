@@ -27,9 +27,9 @@ const TestimonalData = [
 
 const Testimonal = () => {
   return (
-    <div className="border border-black py-14">
+    <div className=" py-14 ">
       {/* header text */}
-      <div className=" border  space-y-4 text-center max-w-[550px] mx-auto mb-8">
+      <div className=" space-y-4 text-center max-w-[550px] mx-auto mb-8">
         <h1 className=" text-4xl font-bold font-serif">
           Words for our customers
         </h1>
@@ -39,16 +39,16 @@ const Testimonal = () => {
         </p>
       </div>
       {/* Testmonial cards */}
-      <div className=" bg-black p-12">
-        <div className=" container grid grid-cols-1 md:grid-cols-3 gap-2">
+      <div className=" flex flex-wrap justify-center bg-black p-12">
+        <div className="  flex flex-wrap md:justify-center lg:grid-cols-3 md:grid-cols-2 sm:w-[75%] gap-2">
           {TestimonalData.map((card) => {
             return (
               <div
                 key={card.id}
-                className="border-[1px] border-gray-500 p-5 text-white group hover:bg-white overflow-hidden "
+                className=" lg:w-[420px] md:w-[285px]  border-[1px] border-gray-500 p-5 text-white group hover:bg-white overflow-hidden "
               >
                 {/* Upper section */}
-                <div className=" flex flex-row items-center gap-5 ">
+                <div className=" flex flex-row items-center gap-5  ">
                   <img
                     src={card.img}
                     alt=""
