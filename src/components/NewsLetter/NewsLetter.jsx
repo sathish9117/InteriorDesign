@@ -12,11 +12,11 @@ const NewsLetter = () => {
         molestiae voluptas.
       </p>
       {/* from here */}
-      <div className=" w-[60%] mx-auto mt-8 flex justify-center gap-3 border flex-wrap sm:flex-col">
+      <div className="mx-auto mt-8 flex gap-3 border flex-wrap lg:w-[60%] lg:flex-row lg:justify-center lg:bg-red-50  md:w-[70%] sm:w-[100%]  sm:flex-col md:flex-col">
         <input
           type="text"
           placeholder="Enter your email"
-          className=" lg:w-[50%] md:w-[100%] sm:[100%] px-4 py-4 ring-1 ring-gray-300"
+          className=" lg:w-[50%]  lg:text-[21px] md:w-[100%] sm:[100%] px-4 py-4 ring-1 ring-gray-300"
         />
         <button className="lg:w-[20%] md:w-[100%] sm:w-[100%] bg-black px-6 py-4 text-white">
           Subscribe
