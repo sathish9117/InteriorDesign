@@ -45,7 +45,7 @@ const Testimonal = () => {
             return (
               <div
                 key={card.id}
-                className=" lg:w-[420px] md:w-[285px]  border-[1px] border-gray-500 p-5 text-white group hover:bg-white overflow-hidden "
+                className=" lg:w-[350px] md:w-[255px] border-[1px] border-gray-500 p-5 text-white group hover:bg-white overflow-hidden "
               >
                 {/* Upper section */}
                 <div className=" flex flex-row items-center gap-5  ">
@@ -72,7 +72,7 @@ const Testimonal = () => {
                 </div>
                 {/* Bottom section */}
                 <div className=" mt-5 border-t-2 border-gray-500/40 pt-5">
-                  <p className=" text-sm text-gray-300 group-hover:text-black duration-300">
+                  <p className=" md:line-clamp-4 text-sm text-gray-300 group-hover:text-black duration-300">
                     {card.text}
                   </p>
                 </div>

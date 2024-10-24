@@ -30,7 +30,7 @@ const ServicesCard = [
 const Services = () => {
   return (
     <div>
-      <div className="container border border-black py-20">
+      <div className="container py-20">
         {/* heading title */}
         <div className=" space-y-3 text-center max-w-[350px] mx-auto mb-8">
           <h1 className=" text-3xl font-bold font-serif">What we provide</h1>
