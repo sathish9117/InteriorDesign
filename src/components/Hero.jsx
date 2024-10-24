@@ -1,7 +1,7 @@
 import React from "react";
-import HeroPng from "../../assets/hero.png";
+import HeroPng from "./assets/images/hero.png";
 import { motion } from "framer-motion";
-import { SlideUp } from "../animation/animate";
+import { SlideUp } from "./animate";
 const Hero = () => {
   return (
     <>
